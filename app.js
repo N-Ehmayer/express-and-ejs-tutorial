@@ -1,6 +1,6 @@
 var app = require('express')()
 
-var posts = {
+var posts = [
   {
     id: 1,
     author: 'John',
@@ -25,7 +25,7 @@ var posts = {
     title: 'Events',
     body: 'Blog post number 4'
   }
-}
+]
 
 app.set('view engine', 'ejs')
 
